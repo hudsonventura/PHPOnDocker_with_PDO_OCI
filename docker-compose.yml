@@ -2,13 +2,11 @@ version: '3'
 services:
 
   fpm:
-    image: hudsonventura/phpondocker_with_pdo_oci
+    image: hudsonventura/phpondocker_with_pdo_oci:7.2.2
     build: PHPfpm
     volumes:
       - ./www:/var/www/html
       - ./configs:/usr/local/etc/php
-    #environment:
-    #  - ORACLE_HOME=/usr/local/instantclient
 
 
   nginx:
@@ -21,4 +19,4 @@ services:
       - ./configs/cert/:/etc/nginx/cert
     ports:
       - "80:80"
-    #  - "443:443" -- to able the 443 and SSL, see README.md
+      - "443:443" # to able the 443 and SSL, see README.md
