@@ -2,6 +2,10 @@
 
 This repo have a Dockerfile to create a cotainer with PHP with PDO_OCI and OCI8
 <br>
+<br>
+This on github: https://github.com/hudsonventura/PHPOnDocker_with_PDO_OCI
+<br>
+This on DockerHub: https://hub.docker.com/repository/docker/hudsonventura/phpondocker_with_pdo_oci
 
 
 <br>
