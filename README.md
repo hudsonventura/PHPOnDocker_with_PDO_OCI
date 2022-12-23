@@ -43,7 +43,7 @@ And uncomment the below lines on file configs/app.vhost
 #ssl_certificate     /etc/nginx/cert/certificate.crt;
 #ssl_certificate_key /etc/nginx/cert/certificate.key;
 ```
-At this moment you will receive a error on certificate, but the SSL is able.
+At this moment you will receive an error on certificate, but the SSL is able.
 If you want to add a valid certificate, just replace the key a crt file at configs/cert
 
 ## Screenshots:
