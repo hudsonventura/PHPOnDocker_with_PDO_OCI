@@ -4,7 +4,7 @@ server {
     #listen 443 ssl;
     #ssl_certificate     /etc/nginx/cert/certificate.crt;
     #ssl_certificate_key /etc/nginx/cert/certificate.key;
-    ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
+    ssl_protocols       TLSv1 TLSv1.1 TLSv1.2; 
     ssl_ciphers         HIGH:!aNULL:!MD5;
 
     fastcgi_read_timeout 3000;
