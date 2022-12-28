@@ -3,7 +3,7 @@ services:
 
   fpm:
     image: hudsonventura/phpondocker_with_pdo_oci:7.2.2
-    build: PHPfpm
+    #build: PHPfpm
     volumes:
       - ./www:/var/www/html
       - ./configs:/usr/local/etc/php
