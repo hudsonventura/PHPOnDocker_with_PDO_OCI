@@ -10,7 +10,7 @@ services:
 
 
   nginx:
-    build: Nginx
+    image: nginx
     volumes:
       - ./www:/var/www/html
       - ./configs/nginx.conf:/etc/nginx/nginx.conf
@@ -20,3 +20,4 @@ services:
     ports:
       - "80:80"
       - "443:443" # to able the 443 and SSL, see README.md
+    entrypoint: nginx
